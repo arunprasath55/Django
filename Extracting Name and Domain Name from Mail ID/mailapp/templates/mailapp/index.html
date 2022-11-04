@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>
+            Name and domain from Mail Id
+        </title>
+        <h3 style="color: chartreuse;text-align: center;">
+            Extracting Name and domain name from Mail Id
+        </h3>
+        <center>
+        <body bgcolor="black" text="green" style="font-size:25">
+            <br> 
+            <br>
+            <br>
+            <br>
+            {% block content %}
+            <form action="result">
+                <label for="mail">Enter the Mail Id:</label>
+                <input type="text" name="mail" style="width:250px;height:30px;" required><br><br>
+                <input type="submit"  value="Submit"   style="width:100px;height:30px;color:white; background-color: royalblue;border-radius:5px;">
+              </form>
+            {% endblock %}  
+        </body>
+    </center>
+    </head>
+</html>
